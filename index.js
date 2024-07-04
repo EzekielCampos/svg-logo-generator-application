@@ -1,5 +1,5 @@
 
-const {Circle, Triangle, Shapes} = require("./lib/shapes");
+const {Circle, Triangle, Square} = require("./lib/shapes");
 
 const testShape = new Circle("red", "orange", "magenta");
 

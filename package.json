@@ -6,7 +6,10 @@
     "example": "examples",
     "lib": "lib"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
