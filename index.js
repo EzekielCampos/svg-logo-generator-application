@@ -3,6 +3,8 @@ const {Circle, Triangle, Square} = require("./lib/shapes");
 
 const inquirer = require("inquirer");
 
+const {svgContent} = require("./lib/svg-content");
+
 const testShape = new Circle("red", "orange", "magenta");
 
 
@@ -35,8 +37,7 @@ inquirer.prompt([
     
 ]).then(response =>{
 
-
-console.log(response);
+svgContent(response);
 
 })
 
