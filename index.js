@@ -7,15 +7,11 @@ const fs = require("fs");
 
 const {svgContent} = require("./lib/svg-content");
 
-const testShape = new Circle("red", "orange", "magenta");
-
 function writeToFile(data){
 
     fs.writeFile("logo.svg", svgContent(data), error => error ? console.error(error): console.log("Generated logo.svg"))
 
 }
-
-
 
 
 
