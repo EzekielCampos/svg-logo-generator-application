@@ -1,17 +1,8 @@
 
-const {Circle, Triangle, Square} = require("./lib/shapes");
 
 const inquirer = require("inquirer");
 
-const fs = require("fs");
-
-const {svgContent} = require("./lib/svg-content");
-
-function writeToFile(data){
-
-    fs.writeFile("logo.svg", svgContent(data), error => error ? console.error(error): console.log("Generated logo.svg"))
-
-}
+const {writeToFile} = require("./lib/content-generator/create-file");
 
 
 
