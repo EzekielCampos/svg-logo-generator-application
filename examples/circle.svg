@@ -5,5 +5,5 @@
   <circle cx="150" cy="100" r="95" fill="lightcoral" stroke="black" stroke-width="2"/>
   
   <!-- Add text inside the circle and center it -->
-  <text x="150" y="105" dominant-baseline="middle" text-anchor="middle" font-size="24" fill="black">Hello</text>
+  <text x="150" y="105" dominant-baseline="middle" text-anchor="middle" font-size="50" fill="black">Hello</text>
 </svg>
