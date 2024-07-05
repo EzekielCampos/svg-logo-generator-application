@@ -3,5 +3,5 @@
   <polygon points="150,0 0,200 300,200" fill="lightgreen"/>
   
   <!-- Add text inside the triangle and center it -->
-  <text x="150" y="130" dominant-baseline="middle" text-anchor="middle" font-size="45" fill="black">Hello</text>
+  <text x="150" y="105" dominant-baseline="middle" text-anchor="middle" font-size="45" fill="black">Hello</text>
 </svg>
