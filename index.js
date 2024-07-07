@@ -1,11 +1,12 @@
 
-
+// This is to include the inquirer package to be used for the CLI prompts
 const inquirer = require("inquirer");
 
+// This function will be used to write the content for the logo and generate a svg file for the logo
 const {writeToFile} = require("./lib/content-generator/create-file");
 
 
-
+// This function will begin the CLI prompting
 const init = () =>{
 
     inquirer.prompt([
@@ -33,7 +34,7 @@ const init = () =>{
         },
         
     ]).then(response =>{
-    
+    // An object will be returned with all the responses from the user and with  that data a new file will be created for the new logo
     writeToFile(response);
     
     })
@@ -41,7 +42,7 @@ const init = () =>{
 
 }
 
-
+// Calling the init function will begin the CLI prompting
 init();
 
 

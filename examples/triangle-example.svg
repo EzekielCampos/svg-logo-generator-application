@@ -1,0 +1,4 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="150,0 0,200 300,200" fill="brown"/>
+            <text x="150" y="120" dominant-baseline="middle" text-anchor="middle" font-size="45" font-family="Courier" fill="lightgreen">EJC</text>
+            </svg>

@@ -1,6 +1,0 @@
-<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Create a triangle that fills the 300x200 pixel canvas -->
-  <polygon points="150,0 0,200 300,200" fill="lightgreen"/>
-  <!-- Add text inside the triangle and center it -->
-  <text x="150" y="120" dominant-baseline="middle" text-anchor="middle" font-size="50" fill="white" font-family="Courier">HOA</text>
-</svg>

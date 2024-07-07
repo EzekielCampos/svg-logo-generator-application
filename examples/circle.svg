@@ -1,9 +1,0 @@
-
-
-<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Create a circle that fits within the 300x200 pixel canvas -->
-  <circle cx="150" cy="100" r="95" fill="lightcoral" stroke="black" stroke-width="2"/>
-  
-  <!-- Add text inside the circle and center it -->
-  <text x="150" y="105" dominant-baseline="middle" text-anchor="middle" font-size="50" fill="black">Hello</text>
-</svg>
